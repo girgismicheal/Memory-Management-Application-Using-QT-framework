@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>733</width>
+    <height>560</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <layout class="QVBoxLayout" name="verticalLayout_3">
+      <item>
+       <widget class="QLabel" name="label_5">
+        <property name="styleSheet">
+         <string notr="true">background-color: #233567;
+font-size: 19px;
+font-style: blod ;
+color: #F7BE16;
+margin-left: 1px;
+</string>
+        </property>
+        <property name="text">
+         <string>memory size</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_memSize">
+        <property name="styleSheet">
+         <string notr="true">border-width: 2px;
+border-style: solid;
+border-color: rgb(11, 115, 144);
+background-color: #F6D186;
+
+</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="0" column="1" rowspan="2">
+     <layout class="QVBoxLayout" name="verticalLayout_4">
+      <item>
+       <widget class="QLabel" name="label_9">
+        <property name="styleSheet">
+         <string notr="true">background-color: #233567;
+font-size: 19px;
+font-style: blod ;
+color: #F7BE16;
+margin-left: 1px;
+</string>
+        </property>
+        <property name="text">
+         <string>process data</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="comboBox_process">
+        <property name="styleSheet">
+         <string notr="true">border-width: 2px;
+border-style: solid;
+border-color: rgb(11, 115, 144);
+background-color: #F6D186;
+
+</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label">
+        <property name="styleSheet">
+         <string notr="true">background-color: #233567;
+font-size: 19px;
+font-style: blod ;
+color: #F7BE16;
+margin-left: 1px;
+</string>
+        </property>
+        <property name="text">
+         <string>name</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_Segname">
+        <property name="styleSheet">
+         <string notr="true">border-width: 2px;
+border-style: solid;
+border-color: rgb(11, 115, 144);
+background-color: #F6D186;
+
+</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_3">
+        <property name="styleSheet">
+         <string notr="true">background-color: #233567;
+font-size: 19px;
+font-style: blod ;
+color: #F7BE16;
+margin-left: 1px;
+</string>
+        </property>
+        <property name="text">
+         <string>size</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_Segsize">
+        <property name="styleSheet">
+         <string notr="true">border-width: 2px;
+border-style: solid;
+border-color: rgb(11, 115, 144);
+background-color: #F6D186;
+
+</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_5">
+        <property name="text">
+         <string>add segment to this process</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_10">
+        <property name="styleSheet">
+         <string notr="true">background-color: #233567;
+font-size: 19px;
+font-style: blod ;
+color: #F7BE16;
+margin-left: 1px;
+</string>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="comboBox_operation">
+        <property name="styleSheet">
+         <string notr="true">border-width: 2px;
+border-style: solid;
+border-color: rgb(11, 115, 144);
+background-color: #F6D186;
+
+</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>first</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>best</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_3">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="text">
+         <string>allocate this proccess</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_11">
+        <property name="styleSheet">
+         <string notr="true">background-color: #233567;
+font-size: 19px;
+font-style: blod ;
+color: #F7BE16;
+margin-left: 1px;
+</string>
+        </property>
+        <property name="text">
+         <string>allocated prcesses</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="comboBox_allocated_porcess">
+        <property name="styleSheet">
+         <string notr="true">border-width: 2px;
+border-style: solid;
+border-color: rgb(11, 115, 144);
+background-color: #F6D186;
+
+</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_dealloc_process">
+        <property name="text">
+         <string>deallocate this porcess</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="1" column="0">
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <widget class="QLabel" name="label_7">
+        <property name="styleSheet">
+         <string notr="true">background-color: #233567;
+font-size: 19px;
+font-style: blod ;
+color: #F7BE16;
+margin-left: 1px;
+</string>
+        </property>
+        <property name="text">
+         <string>hole start</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_holestart">
+        <property name="styleSheet">
+         <string notr="true">border-width: 2px;
+border-style: solid;
+border-color: rgb(11, 115, 144);
+background-color: #F6D186;
+
+</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_6">
+        <property name="styleSheet">
+         <string notr="true">background-color: #233567;
+font-size: 19px;
+font-style: blod ;
+color: #F7BE16;
+margin-left: 1px;
+</string>
+        </property>
+        <property name="text">
+         <string>hole size</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_holeSize">
+        <property name="styleSheet">
+         <string notr="true">border-width: 2px;
+border-style: solid;
+border-color: rgb(11, 115, 144);
+background-color: #F6D186;
+
+</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_Addhole">
+        <property name="text">
+         <string>add hole</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_8">
+        <property name="styleSheet">
+         <string notr="true">background-color: #233567;
+font-size: 19px;
+font-style: blod ;
+color: #F7BE16;
+margin-left: 1px;
+</string>
+        </property>
+        <property name="text">
+         <string>de-alloc from system by start</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_dealloc">
+        <property name="styleSheet">
+         <string notr="true">border-width: 2px;
+border-style: solid;
+border-color: rgb(11, 115, 144);
+background-color: #F6D186;
+
+</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_4">
+        <property name="text">
+         <string>dealloc</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="2" column="0">
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QLabel" name="label_4">
+        <property name="styleSheet">
+         <string notr="true">background-color: #233567;
+font-size: 19px;
+font-style: blod ;
+color: #F7BE16;
+margin-left: 1px;
+</string>
+        </property>
+        <property name="text">
+         <string>process name</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_processName">
+        <property name="styleSheet">
+         <string notr="true">border-width: 2px;
+border-style: solid;
+border-color: rgb(11, 115, 144);
+background-color: #F6D186;
+
+</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_2">
+        <property name="styleSheet">
+         <string notr="true">background-color: #233567;
+font-size: 19px;
+font-style: blod ;
+color: #F7BE16;
+margin-left: 1px;
+</string>
+        </property>
+        <property name="text">
+         <string>num of seg</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_Numseg">
+        <property name="styleSheet">
+         <string notr="true">border-width: 2px;
+border-style: solid;
+border-color: rgb(11, 115, 144);
+background-color: #F6D186;
+
+</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_addPocess">
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="text">
+         <string>add process</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="2" column="1">
+     <widget class="QTreeWidget" name="treeWidget">
+      <property name="styleSheet">
+       <string notr="true">background-color : #fff6da;</string>
+      </property>
+      <column>
+       <property name="text">
+        <string notr="true">1</string>
+       </property>
+      </column>
+     </widget>
+    </item>
+    <item row="0" column="2" rowspan="3">
+     <widget class="QGraphicsView" name="graphicsView"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>733</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
