@@ -51,3 +51,9 @@ To deallocate a process chose it from the compo box and click deallocate it woul
 - Class GUI is used for interfacing, taking data, and making actions(messages, drawing memory space, drawing segmentation table).  
 
 
+## GUI Design
+| User Interface               |
+|------------------------------|
+| ![Image](Image/Picture4.png) |
+
+
