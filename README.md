@@ -34,3 +34,9 @@ When a process is going to execute, we check the segmentation table to get the s
   - Draw the memory space (holes, allocated for processes, allocated for the system).
   - Segmentation Table.
 
+# Project Implementation
+## Design overview
+### Flow chart
+![Image](Image/Picture2.png)
+To deallocate a process chose it from the compo box and click deallocate it would be deallocated, and the block memory would be updated.
+
