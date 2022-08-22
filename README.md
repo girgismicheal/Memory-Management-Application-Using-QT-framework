@@ -65,3 +65,13 @@ To deallocate a process chose it from the compo box and click deallocate it woul
 5.	Choose the process you want and insert the segments’ name and their size.
 6.	If you entered all the process segments then you are able to choose the allocation algorithm and click allocate and the memory space would be updated if the process is successfully allocated else an error message would appear.
 
+### Warning massages
+
+| if the user click on the process to deallocate | process can’t allocate as one or more segment does not have a suitable space |
+|-----------------------------------------------|------------------------------------------------------------------------------|
+| ![Image](Image/Picture5.png)                  | ![Image](Image/Picture6.png)                                                 |
+| when trying deallocate a process segment.     | Indecation for the process has all the segments                              |
+| ![Image](Image/Picture7.png)                  | ![Image](Image/Picture8.png)                                                 |
+
+- There are more Warning messages.
+
