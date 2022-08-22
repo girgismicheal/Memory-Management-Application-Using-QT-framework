@@ -22,3 +22,15 @@ When a process is going to execute, we check the segmentation table to get the s
 
 ![Image](Image/Picture1.png)
 
+# The Project Requirements For Memory Allocation and Memory deallocation Project
+
+- Inputs:
+  - the data of the process name and segment number. 
+  - the segment’s name and size. 
+  - Allocation algorithm first or best algorithm. 
+  - Deallocate a process. 
+  - Deallocation address (for deallocating form system).
+- Output:
+  - Draw the memory space (holes, allocated for processes, allocated for the system).
+  - Segmentation Table.
+
