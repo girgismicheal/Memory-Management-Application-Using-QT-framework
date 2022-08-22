@@ -75,3 +75,27 @@ To deallocate a process chose it from the compo box and click deallocate it woul
 
 - There are more Warning messages.
 
+# Execution Example
+ ### **Initiate The System**
+- Input:
+  - Add three holes at (100,50), (200,100), (400,150).
+
+| Program Output               | 
+|------------------------------|
+| ![Image](Image/Picture9.png) |
+
+  ### **Use First Allocation**
+- Input:
+  - Add a process with three segments Simulink(110), Simlink2(40), code(40), code2(10)
+
+| Program Output                | 
+|-------------------------------|
+| ![Image](Image/Picture10.png) |
+
+  ### **Use Best Allocation**
+- Input:
+  - Add a process with three segments Simulink(110), simlink2(40), code(40), code2(10)
+
+| Program Output                | 
+|-------------------------------|
+| ![Image](Image/Picture11.png) |
