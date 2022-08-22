@@ -57,3 +57,11 @@ To deallocate a process chose it from the compo box and click deallocate it woul
 | ![Image](Image/Picture4.png) |
 
 
+### User Guide 
+1.	Enter the size of the memory then a block of memory with this size would be drawn in the Graphics view on the Right.
+2.	Enter the start and size for a hole then Click add hole, A hole at the start would add by the size. 
+3.	Entre the start of An allocated block you want to deallocate from the system and Click the Deallocate Button, the block would be free.
+4.	Add the process name and the segment number then it would appear in the Process Data compo box to enter its data. 
+5.	Choose the process you want and insert the segments’ name and their size.
+6.	If you entered all the process segments then you are able to choose the allocation algorithm and click allocate and the memory space would be updated if the process is successfully allocated else an error message would appear.
+
