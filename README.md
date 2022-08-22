@@ -42,3 +42,12 @@ To deallocate a process chose it from the compo box and click deallocate it woul
 
 ### Class Diagram
 ![Image](Image/Picture3.png)
+
+
+### Classes Description
+- Class block represents the block Which is one of three(a hole, allocated for a process, allocated for the System), we use this also to Draw in the GUI.
+- Class MySquer I just made it to inherit from the library, that I use to draw a square in the Graphics View.
+- The class process represents the process with its name, and segments and they include the segmentation table.
+- Class GUI is used for interfacing, taking data, and making actions(messages, drawing memory space, drawing segmentation table).  
+
+
