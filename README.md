@@ -14,3 +14,11 @@ The memory management system provides:
 3.	Memory Mapping
 4.	Physical Memory Allocation for Processes
 5.	Shared Virtual Memory
+
+## Segmentation:
+Segmentation is a memory management technique that divided each process into several segments with different sizes for each segment, for example, dividing the module into factions. And allocate each segment separately in the address space.
+
+When a process is going to execute, we check the segmentation table to get the segments needed for the execution.
+
+![Image](Image/Picture1.png)
+
